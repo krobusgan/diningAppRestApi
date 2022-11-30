@@ -1,5 +1,6 @@
 package com.example.server.diningapp;
 
+import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.*;
@@ -50,6 +51,46 @@ class FoodItemRestController {
                              FoodItem.setWaitingLine(Integer.parseInt(waitingLine));
                              repository.save(FoodItem);
                      });
+
+        return foodItems.stream().findFirst()
+                .orElseThrow(RuntimeException::new);
+    }
+
+    @GetMapping("/AllFoodItemsWaitingLine")
+    FoodItem updateFoodItemWaitingLine() {
+        log.info(String.format("update all waiting line to reduce 1..."));
+        List<FoodItem> foodItems = repository.findAll();
+        repository.findAll()
+                .stream()
+                .filter(foodItem -> foodItem.getWaitingLine() > 0)
+                .forEach(
+                        FoodItem -> {
+                            FoodItem.setWaitingLine(FoodItem.getWaitingLine() -1);
+                            repository.save(FoodItem);
+                        });
+
+        return foodItems.stream().findFirst()
+                .orElseThrow(RuntimeException::new);
+    }
+
+    @GetMapping("/FoodItemsLabel")
+    FoodItem updateFoodItemLabel(@RequestParam String foodName,
+                                 @RequestParam String label) {
+        log.info(String.format("update label for food item %s with value %s..", foodName, label));
+        List<FoodItem> foodItems = repository.findByName(foodName);
+        repository.findByName(foodName)
+                .stream().forEach(
+                        FoodItem -> {
+                            String updatedLabel = FoodItem.getLabel();
+                            if (StringUtils.isBlank(updatedLabel.trim())) {
+                                updatedLabel = label;
+                            }
+                            else {
+                                updatedLabel = updatedLabel + ";" + label;
+                            }
+                            FoodItem.setLabel(updatedLabel);
+                            repository.save(FoodItem);
+                        });
 
         return foodItems.stream().findFirst()
                 .orElseThrow(RuntimeException::new);
