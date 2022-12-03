@@ -4,7 +4,6 @@ import org.junit.jupiter.api.Test;
 
 import java.io.IOException;
 
-import static com.codeborne.selenide.Selenide.open;
 import static com.example.server.diningapp.VTDiningScrapingUtils.scrapingVTDiningHours;
 
 public class ScrapingTest {

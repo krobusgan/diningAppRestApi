@@ -9,9 +9,6 @@ import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.core.io.Resource;
 
@@ -23,8 +20,10 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
-import static com.codeborne.selenide.Condition.*;
-import static com.codeborne.selenide.Selenide.*;
+import static com.codeborne.selenide.Condition.partialText;
+import static com.codeborne.selenide.Condition.text;
+import static com.codeborne.selenide.Selenide.$;
+import static com.codeborne.selenide.Selenide.open;
 import static com.codeborne.selenide.WebDriverRunner.getWebDriver;
 import static com.example.server.diningapp.LoadDatabase.DINING_MENU_DISH_HEADER;
 
@@ -174,36 +173,20 @@ public class VTDiningScrapingUtils {
         Configuration.headless = true;
         open(VT_HOUR_URL);
         $(By.id("app")).$(By.tagName("h1")).shouldHave(text("Dining Center Operation Hours"));
-
-        // Wait until specific content loaded
+        LocalDateTime now = LocalDateTime.now();
         List<DiningHallHour> records = new ArrayList<>();
-        // String date = "2022-11-17";
-        // $(By.xpath("//td[@data-date='" +  date + "']")).shouldBe(visible).click();
+        for (int i =0; i<1; i++) {
+            LocalDateTime dateTime;
+            if (i == 0) {
+                dateTime = now;
+            }
+            else {
+                dateTime = now.plusDays(i);
+            }
 
-         $(By.className("unitsOpenOnDay")).shouldBe(visible, Duration.ofSeconds(30));
-         Document doc = Jsoup.parse(getWebDriver().getPageSource());
-         System.out.println(doc.toString());
-         List<Element> cards = doc.getElementsByClass("unitsOpenOnDay");
-         // List<DiningHallHour> records = new ArrayList<>();
-        // scraping(date, records);
-       //  scraping("2022-11-18", records);
-        for (Element card : cards) {
-            DiningHallHour diningHallHour =
-                    DiningHallHour.DiningHallHourBuilder
-                            .aDiningHallHour()
-                            .hours(
-                                    card.getElementsByClass("unitOpenOnDayHourEntry").size() > 0
-                                            ? card.getElementsByClass("unitOpenOnDayHourEntry").get(0).text()
-                                            : "")
-                            .date(LocalDateTime.now().format(DateTimeFormatter.BASIC_ISO_DATE))
-                            .diningHall(card.getElementsByClass("p-panel-title").size() > 0
-                                    ? card.getElementsByClass("p-panel-title").get(0).text()
-                                    : "").build();
-
-            records.add(diningHallHour);
+            String dateString = dateTime.format(DateTimeFormatter.ofPattern("yyyy-MM-dd"));
+            scraping(dateString, records);
         }
-
-        // printToCsvFile("hours.csv", DINING_HOURS_HEADER, Collections.singletonList(records));
         return records;
     }
 
@@ -212,13 +195,6 @@ public class VTDiningScrapingUtils {
                 .$(By.className("fc-daygrid-event-harness"))
                 .click();
 
-        WebElement element = $(By.xpath("//td[@data-date=\"" +  date + "\"][1]"))
-                .$(By.tagName("a"));
-
-        // WebElement webElement = driver.findElement(By.id("Your ID Here"));
-        Actions builder = new Actions(getWebDriver());
-        builder.moveToElement(element).click(element);
-        builder.perform();
         $(By.id("openNow")).$(By.tagName("h2")).shouldHave(partialText(date), Duration.ofSeconds(30));
         Document doc = Jsoup.parse(getWebDriver().getPageSource());
         // System.out.println(doc.toString());
@@ -231,7 +207,7 @@ public class VTDiningScrapingUtils {
                                     card.getElementsByClass("unitOpenOnDayHourEntry").size() > 0
                                             ? card.getElementsByClass("unitOpenOnDayHourEntry").get(0).text()
                                             : "")
-                            .date(LocalDateTime.now().format(DateTimeFormatter.BASIC_ISO_DATE))
+                            .date(date)
                             .diningHall(card.getElementsByClass("p-panel-title").size() > 0
                                     ? card.getElementsByClass("p-panel-title").get(0).text()
                                     : "").build();

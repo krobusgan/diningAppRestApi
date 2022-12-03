@@ -23,7 +23,7 @@ class FoodItemRestController {
     // tag::get-aggregate-root[]
     @GetMapping("/FoodItems")
     List<FoodItem> all() {
-        log.info("getting all food items...");
+        // log.info("getting all food items...");
         return repository.findAll();
     }
     // end::get-aggregate-root[]

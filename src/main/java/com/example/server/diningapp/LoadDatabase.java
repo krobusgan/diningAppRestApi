@@ -49,9 +49,9 @@ public class LoadDatabase {
             String hourJsonString = loadJSONFromAsset("hours.json");
             List<DiningHallHour> hourList               = mapper.readValue(hourJsonString, new TypeReference<>() {});
             log.info("Preloading hour list...");
-            diningHallHourRepository.saveAll(hourList);
+            diningHallHourRepository.saveAll(diningHallHours);
             hourList = diningHallHourRepository.findAll();
-            log.info("Existing items for hours " + hourList.size());
+            log.info("Existing items for hours " + diningHallHours.size());
         };
     }
 
