@@ -20,8 +20,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
-import static com.codeborne.selenide.Condition.partialText;
-import static com.codeborne.selenide.Condition.text;
+import static com.codeborne.selenide.Condition.*;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
 import static com.codeborne.selenide.WebDriverRunner.getWebDriver;
@@ -31,6 +30,7 @@ public class VTDiningScrapingUtils {
     public static final String VT_MENU_URL               = "https://foodpro.dsa.vt.edu/menus/";
     public static final String VT_HOUR_URL               = "https://saapps.students.vt.edu/hours/";
     public static final String[] DINING_HOURS_HEADER     = { "Dining Hall", "Date", "Hours"};
+    public static final int numberOfNextDays             = 7;
     public static String loadJSONFromAsset(String fileName) {
         String json = "";
         try {
@@ -126,6 +126,16 @@ public class VTDiningScrapingUtils {
         }
     }
 
+    public static void printHoursToJsonFile(List<DiningHallHour> list) throws IOException{
+            ObjectMapper mapper = new ObjectMapper();
+            mapper.writeValue(new File("hours.json"), list);
+    }
+
+    public static void printMenuToJsonFile(List<FoodItem> list) throws IOException{
+        ObjectMapper mapper = new ObjectMapper();
+        mapper.writeValue(new File("menu.json"), list);
+    }
+
 
     public static List<DiningHallHour> readingHourFromCsvFile (String fileName, String[] header) throws IOException {
         Reader in = new FileReader(fileName + ".csv");
@@ -169,13 +179,13 @@ public class VTDiningScrapingUtils {
      * @return A list of hour object display in the website
      * @throws IOException
      */
-    public static List<DiningHallHour> scrapingVTDiningHours() throws IOException {
+    public static List<DiningHallHour> scrapingVTDiningHours() throws IOException, InterruptedException {
         Configuration.headless = true;
         open(VT_HOUR_URL);
         $(By.id("app")).$(By.tagName("h1")).shouldHave(text("Dining Center Operation Hours"));
         LocalDateTime now = LocalDateTime.now();
         List<DiningHallHour> records = new ArrayList<>();
-        for (int i =0; i<1; i++) {
+        for (int i = 0 ; i< numberOfNextDays; i++) {
             LocalDateTime dateTime;
             if (i == 0) {
                 dateTime = now;
@@ -190,12 +200,16 @@ public class VTDiningScrapingUtils {
         return records;
     }
 
-    public static void scraping(String date, List<DiningHallHour> records) {
+    public static void scraping(String date, List<DiningHallHour> records) throws InterruptedException {
+
+        $(By.className("loading_spinner_container")).shouldNot(visible, Duration.ofSeconds(30));
         $(By.xpath("//td[@data-date=\"" +  date + "\"]"))
                 .$(By.className("fc-daygrid-event-harness"))
                 .click();
 
         $(By.id("openNow")).$(By.tagName("h2")).shouldHave(partialText(date), Duration.ofSeconds(30));
+        // Needs it for stable scraping
+        Thread.sleep(2000);
         Document doc = Jsoup.parse(getWebDriver().getPageSource());
         // System.out.println(doc.toString());
         List<Element> cards = doc.getElementsByClass("unitsOpenOnDay");
