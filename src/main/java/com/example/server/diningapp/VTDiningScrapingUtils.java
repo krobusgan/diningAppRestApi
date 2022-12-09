@@ -1,6 +1,7 @@
 package com.example.server.diningapp;
 
 import com.codeborne.selenide.Configuration;
+import com.codeborne.selenide.SelenideElement;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVPrinter;
@@ -9,6 +10,8 @@ import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.openqa.selenium.By;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.core.io.Resource;
 
@@ -17,8 +20,10 @@ import java.time.Duration;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Objects;
+import java.util.logging.Level;
 
 import static com.codeborne.selenide.Condition.*;
 import static com.codeborne.selenide.Selenide.$;
@@ -31,6 +36,33 @@ public class VTDiningScrapingUtils {
     public static final String VT_HOUR_URL               = "https://saapps.students.vt.edu/hours/";
     public static final String[] DINING_HOURS_HEADER     = { "Dining Hall", "Date", "Hours"};
     public static final int numberOfNextDays             = 7;
+
+    public static final List<String> defaultDiningHalls = Arrays.asList(
+                "Au Bon Pain - Squires Cafe",
+            "Au Bon Pain at Goodwin Hall",
+            "Burger '37",
+            "Dietrick - D2",
+            "Dietrick - Deet's Place",
+            "Dietrick - DXpress",
+            "Dietrick - Xpress Lane",
+            "Dunkin'",
+            "Hokie Grill & Co.",
+            "Owens Food Court",
+            "Turner Place - 1872 Fire Grill",
+            "Turner Place - Atomic Pizzeria",
+            "Turner Place - Bruegger's Bagels",
+            "Turner Place - Dolci e Caffe",
+            "Turner Place - Dolci e Caffe: Grab n Go",
+            "Turner Place - Jamba",
+            "Turner Place - Origami Grill",
+            "Turner Place - Origami Sushi",
+            "Turner Place - Qdoba Mexican Eats",
+            "Turner Place - Soup Garden",
+            "VIVA Market - Johnston Student Center",
+            "West End Market"
+            );
+
+    private static final Logger log = LoggerFactory.getLogger(VTDiningScrapingUtils.class);
     public static String loadJSONFromAsset(String fileName) {
         String json = "";
         try {
@@ -174,12 +206,13 @@ public class VTDiningScrapingUtils {
 
         return list;
     }
+
     /**
      * Connect to VT menu website and parsed important information
      * @return A list of hour object display in the website
      * @throws IOException
      */
-    public static List<DiningHallHour> scrapingVTDiningHours() throws IOException, InterruptedException {
+    public static List<DiningHallHour> scrapingVTDiningHours(int numberOfNextDays) throws IOException, InterruptedException {
         Configuration.headless = true;
         open(VT_HOUR_URL);
         $(By.id("app")).$(By.tagName("h1")).shouldHave(text("Dining Center Operation Hours"));
@@ -201,32 +234,48 @@ public class VTDiningScrapingUtils {
     }
 
     public static void scraping(String date, List<DiningHallHour> records) throws InterruptedException {
+        java.util.logging.Logger.getLogger("org.openqa.selenium").setLevel(Level.INFO);
 
         $(By.className("loading_spinner_container")).shouldNot(visible, Duration.ofSeconds(30));
-        $(By.xpath("//td[@data-date=\"" +  date + "\"]"))
-                .$(By.className("fc-daygrid-event-harness"))
-                .click();
+        SelenideElement selenideElement = $(By.xpath("//td[@data-date=\"" +  date + "\"]"));
 
-        $(By.id("openNow")).$(By.tagName("h2")).shouldHave(partialText(date), Duration.ofSeconds(30));
-        // Needs it for stable scraping
-        Thread.sleep(2000);
-        Document doc = Jsoup.parse(getWebDriver().getPageSource());
-        // System.out.println(doc.toString());
-        List<Element> cards = doc.getElementsByClass("unitsOpenOnDay");
-        for (Element card : cards) {
-            DiningHallHour diningHallHour =
-                    DiningHallHour.DiningHallHourBuilder
-                            .aDiningHallHour()
-                            .hours(
-                                    card.getElementsByClass("unitOpenOnDayHourEntry").size() > 0
-                                            ? card.getElementsByClass("unitOpenOnDayHourEntry").get(0).text()
-                                            : "")
-                            .date(date)
-                            .diningHall(card.getElementsByClass("p-panel-title").size() > 0
-                                    ? card.getElementsByClass("p-panel-title").get(0).text()
-                                    : "").build();
-
-            records.add(diningHallHour);
+        if (selenideElement.$(By.className("fc-event-main")).exists()) {
+            selenideElement.$(By.className("fc-daygrid-event-harness")).click();
+            $(By.id("openNow")).$(By.tagName("h2")).shouldHave(partialText(date), Duration.ofSeconds(30));
+            // Needs it for stable scraping
+            Thread.sleep(2000);
+            Document doc = Jsoup.parse(getWebDriver().getPageSource());
+            // System.out.println(doc.toString());
+            List<Element> cards = doc.getElementsByClass("unitsOpenOnDay");
+            for (Element card : cards) {
+                DiningHallHour diningHallHour =
+                        DiningHallHour.DiningHallHourBuilder
+                                .aDiningHallHour()
+                                .hours(
+                                        card.getElementsByClass("unitOpenOnDayHourEntry").size() > 0
+                                                ? card.getElementsByClass("unitOpenOnDayHourEntry").get(0).text()
+                                                : "")
+                                .date(date)
+                                .diningHall(card.getElementsByClass("p-panel-title").size() > 0
+                                        ? card.getElementsByClass("p-panel-title").get(0).text()
+                                        : "").build();
+                log.info("Opening Rest " + (card.getElementsByClass("p-panel-title").size() > 0
+                        ? card.getElementsByClass("p-panel-title").get(0).text()
+                        : ""));
+                records.add(diningHallHour);
+            }
+        }
+        else {
+            log.info("no business on " + date);
+            for (String diningHall : defaultDiningHalls) {
+                DiningHallHour diningHallHour =
+                        DiningHallHour.DiningHallHourBuilder
+                                .aDiningHallHour()
+                                .hours("Closed")
+                                .date(date)
+                                .diningHall(diningHall).build();
+                records.add(diningHallHour);
+            }
         }
     }
 }

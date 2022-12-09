@@ -10,7 +10,7 @@ import static com.example.server.diningapp.VTDiningScrapingUtils.*;
 public class ScrapingTest {
     @Test
     public void testScrapingWorks() throws IOException, InterruptedException {
-        List<DiningHallHour> diningHallHourList = scrapingVTDiningHours();
+        List<DiningHallHour> diningHallHourList = scrapingVTDiningHours(16);
         printHoursToJsonFile(diningHallHourList);
     }
 }

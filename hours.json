@@ -1,0 +1,1718 @@
+[
+  {
+    "id": null,
+    "hours": "Regular Hours 07:30AM - 05:00PM",
+    "diningHall": "Au Bon Pain - Squires Cafe",
+    "date": "2022-12-09"
+  },
+  {
+    "id": null,
+    "hours": "Regular Hours 07:30AM - 03:00PM",
+    "diningHall": "Au Bon Pain at Goodwin Hall",
+    "date": "2022-12-09"
+  },
+  {
+    "id": null,
+    "hours": "Lunch/Dinner 11:00AM - 07:00PM",
+    "diningHall": "Burger '37",
+    "date": "2022-12-09"
+  },
+  {
+    "id": null,
+    "hours": "Dinner 5:00 PM - 7:30 PM",
+    "diningHall": "Dietrick - D2",
+    "date": "2022-12-09"
+  },
+  {
+    "id": null,
+    "hours": "Regular Hours 7:00 AM - 12:00 AM",
+    "diningHall": "Dietrick - Deet's Place",
+    "date": "2022-12-09"
+  },
+  {
+    "id": null,
+    "hours": "In-Person Orders Only 11:00 AM - 2:00 AM",
+    "diningHall": "Dietrick - DXpress",
+    "date": "2022-12-09"
+  },
+  {
+    "id": null,
+    "hours": "Regular Hours 7:00 AM - 2:00 AM",
+    "diningHall": "Dietrick - Xpress Lane",
+    "date": "2022-12-09"
+  },
+  {
+    "id": null,
+    "hours": "Regular Hours 07:30AM - 08:00PM",
+    "diningHall": "Dunkin'",
+    "date": "2022-12-09"
+  },
+  {
+    "id": null,
+    "hours": "Regular Hours 07:30AM - 09:00PM",
+    "diningHall": "Hokie Grill & Co.",
+    "date": "2022-12-09"
+  },
+  {
+    "id": null,
+    "hours": "Breakfast 07:30AM - 10:30AM",
+    "diningHall": "Owens Food Court",
+    "date": "2022-12-09"
+  },
+  {
+    "id": null,
+    "hours": "Breakfast 07:00AM - 10:00AM",
+    "diningHall": "Turner Place - 1872 Fire Grill",
+    "date": "2022-12-09"
+  },
+  {
+    "id": null,
+    "hours": "Lunch 10:30AM - 03:00PM",
+    "diningHall": "Turner Place - Atomic Pizzeria",
+    "date": "2022-12-09"
+  },
+  {
+    "id": null,
+    "hours": "Brunch 07:00AM - 03:00PM",
+    "diningHall": "Turner Place - Bruegger's Bagels",
+    "date": "2022-12-09"
+  },
+  {
+    "id": null,
+    "hours": "Regular Hours 07:00AM - 07:00PM",
+    "diningHall": "Turner Place - Dolci e Caffe",
+    "date": "2022-12-09"
+  },
+  {
+    "id": null,
+    "hours": "Grab & Gobble 07:00AM - 08:00PM",
+    "diningHall": "Turner Place - Dolci e Caffe: Grab n Go",
+    "date": "2022-12-09"
+  },
+  {
+    "id": null,
+    "hours": "Regular Hours 07:30AM - 03:00PM",
+    "diningHall": "Turner Place - Jamba",
+    "date": "2022-12-09"
+  },
+  {
+    "id": null,
+    "hours": "Lunch 11:00AM - 03:00PM",
+    "diningHall": "Turner Place - Origami Grill",
+    "date": "2022-12-09"
+  },
+  {
+    "id": null,
+    "hours": "Regular Hours 11:00 AM - 2:30 PM",
+    "diningHall": "Turner Place - Origami Sushi",
+    "date": "2022-12-09"
+  },
+  {
+    "id": null,
+    "hours": "Regular Hours 10:00AM - 08:00PM",
+    "diningHall": "Turner Place - Qdoba Mexican Eats",
+    "date": "2022-12-09"
+  },
+  {
+    "id": null,
+    "hours": "Grubhub Orders only 10:30AM - 03:00PM",
+    "diningHall": "Turner Place - Soup Garden",
+    "date": "2022-12-09"
+  },
+  {
+    "id": null,
+    "hours": "Regular Hours 07:30AM - 04:30PM",
+    "diningHall": "VIVA Market - Johnston Student Center",
+    "date": "2022-12-09"
+  },
+  {
+    "id": null,
+    "hours": "Regular Hours 10:30AM - 08:00PM",
+    "diningHall": "West End Market",
+    "date": "2022-12-09"
+  },
+  {
+    "id": null,
+    "hours": "Regular Hours 9:00 AM - 7:00 PM",
+    "diningHall": "Au Bon Pain - Squires Cafe",
+    "date": "2022-12-10"
+  },
+  {
+    "id": null,
+    "hours": "Lunch/Dinner 12:00 PM - 7:00 PM",
+    "diningHall": "Burger '37",
+    "date": "2022-12-10"
+  },
+  {
+    "id": null,
+    "hours": "Regular Hours 9:00 AM - 12:00 AM",
+    "diningHall": "Dietrick - Deet's Place",
+    "date": "2022-12-10"
+  },
+  {
+    "id": null,
+    "hours": "Regular Hours 9:00 AM - 2:00 AM",
+    "diningHall": "Dietrick - DXpress",
+    "date": "2022-12-10"
+  },
+  {
+    "id": null,
+    "hours": "Regular Hours 9:00 AM - 2:00 AM",
+    "diningHall": "Dietrick - Xpress Lane",
+    "date": "2022-12-10"
+  },
+  {
+    "id": null,
+    "hours": "Regular Hours 8:00 AM - 2:00 PM",
+    "diningHall": "Dunkin'",
+    "date": "2022-12-10"
+  },
+  {
+    "id": null,
+    "hours": "Dinner 3:00 PM - 8:00 PM",
+    "diningHall": "Owens Food Court",
+    "date": "2022-12-10"
+  },
+  {
+    "id": null,
+    "hours": "Lunch/Dinner 2:00 PM - 8:00 PM",
+    "diningHall": "West End Market",
+    "date": "2022-12-10"
+  },
+  {
+    "id": null,
+    "hours": "Regular Hours 9:00 AM - 7:00 PM",
+    "diningHall": "Au Bon Pain - Squires Cafe",
+    "date": "2022-12-11"
+  },
+  {
+    "id": null,
+    "hours": "Lunch/Dinner 12:00 PM - 7:00 PM",
+    "diningHall": "Burger '37",
+    "date": "2022-12-11"
+  },
+  {
+    "id": null,
+    "hours": "Regular Hours 9:30 AM - 7:30 PM",
+    "diningHall": "Dietrick - D2",
+    "date": "2022-12-11"
+  },
+  {
+    "id": null,
+    "hours": "Regular Hours 9:00 AM - 12:00 AM",
+    "diningHall": "Dietrick - Deet's Place",
+    "date": "2022-12-11"
+  },
+  {
+    "id": null,
+    "hours": "In-Person Orders Only 11:00 AM - 2:00 AM",
+    "diningHall": "Dietrick - DXpress",
+    "date": "2022-12-11"
+  },
+  {
+    "id": null,
+    "hours": "Regular Hours 9:00 AM - 2:00 AM",
+    "diningHall": "Dietrick - Xpress Lane",
+    "date": "2022-12-11"
+  },
+  {
+    "id": null,
+    "hours": "Regular Hours 8:00 AM - 2:00 PM",
+    "diningHall": "Dunkin'",
+    "date": "2022-12-11"
+  },
+  {
+    "id": null,
+    "hours": "Brunch 10:30 AM - 3:00 PM",
+    "diningHall": "Owens Food Court",
+    "date": "2022-12-11"
+  },
+  {
+    "id": null,
+    "hours": "Brunch 10:30 AM - 2:00 PM",
+    "diningHall": "West End Market",
+    "date": "2022-12-11"
+  },
+  {
+    "id": null,
+    "hours": "Regular Hours 7:30 AM - 2:00 PM",
+    "diningHall": "Au Bon Pain - GLC",
+    "date": "2022-12-12"
+  },
+  {
+    "id": null,
+    "hours": "Regular Hours 7:30 AM - 8:00 PM",
+    "diningHall": "Au Bon Pain - Squires Cafe",
+    "date": "2022-12-12"
+  },
+  {
+    "id": null,
+    "hours": "Regular Hours 7:30 AM - 3:00 PM",
+    "diningHall": "Au Bon Pain at Goodwin Hall",
+    "date": "2022-12-12"
+  },
+  {
+    "id": null,
+    "hours": "Regular Hours 11:00 AM - 9:00 PM",
+    "diningHall": "Burger '37",
+    "date": "2022-12-12"
+  },
+  {
+    "id": null,
+    "hours": "Dinner 5:00 PM - 7:30 PM",
+    "diningHall": "Dietrick - D2",
+    "date": "2022-12-12"
+  },
+  {
+    "id": null,
+    "hours": "Regular Hours 7:00 AM - 12:00 AM",
+    "diningHall": "Dietrick - Deet's Place",
+    "date": "2022-12-12"
+  },
+  {
+    "id": null,
+    "hours": "In-Person Orders Only 11:00 AM - 2:00 AM",
+    "diningHall": "Dietrick - DXpress",
+    "date": "2022-12-12"
+  },
+  {
+    "id": null,
+    "hours": "Regular Hours 7:00 AM - 2:00 AM",
+    "diningHall": "Dietrick - Xpress Lane",
+    "date": "2022-12-12"
+  },
+  {
+    "id": null,
+    "hours": "Regular Hours 7:30 AM - 8:00 PM",
+    "diningHall": "Dunkin'",
+    "date": "2022-12-12"
+  },
+  {
+    "id": null,
+    "hours": "Regular Hours 7:30 AM - 10:00 PM",
+    "diningHall": "Hokie Grill & Co.",
+    "date": "2022-12-12"
+  },
+  {
+    "id": null,
+    "hours": "Breakfast 7:30 AM - 10:30 AM",
+    "diningHall": "Owens Food Court",
+    "date": "2022-12-12"
+  },
+  {
+    "id": null,
+    "hours": "Breakfast 7:00 AM - 10:00 AM",
+    "diningHall": "Turner Place - 1872 Fire Grill",
+    "date": "2022-12-12"
+  },
+  {
+    "id": null,
+    "hours": "Lunch/Dinner 10:30 AM - 8:00 PM",
+    "diningHall": "Turner Place - Atomic Pizzeria",
+    "date": "2022-12-12"
+  },
+  {
+    "id": null,
+    "hours": "Brunch 7:00 AM - 3:00 PM",
+    "diningHall": "Turner Place - Bruegger's Bagels",
+    "date": "2022-12-12"
+  },
+  {
+    "id": null,
+    "hours": "Regular Hours 7:00 AM - 8:00 PM",
+    "diningHall": "Turner Place - Dolci e Caffe",
+    "date": "2022-12-12"
+  },
+  {
+    "id": null,
+    "hours": "Grab & Gobble 7:00 AM - 9:00 PM",
+    "diningHall": "Turner Place - Dolci e Caffe: Grab n Go",
+    "date": "2022-12-12"
+  },
+  {
+    "id": null,
+    "hours": "Regular Hours 7:30 AM - 8:00 PM",
+    "diningHall": "Turner Place - Jamba",
+    "date": "2022-12-12"
+  },
+  {
+    "id": null,
+    "hours": "Lunch 11:00 AM - 3:00 PM",
+    "diningHall": "Turner Place - Origami Grill",
+    "date": "2022-12-12"
+  },
+  {
+    "id": null,
+    "hours": "Regular Hours 11:00 AM - 2:30 PM",
+    "diningHall": "Turner Place - Origami Sushi",
+    "date": "2022-12-12"
+  },
+  {
+    "id": null,
+    "hours": "Regular Hours 10:00 AM - 9:00 PM",
+    "diningHall": "Turner Place - Qdoba Mexican Eats",
+    "date": "2022-12-12"
+  },
+  {
+    "id": null,
+    "hours": "Grubhub Orders only 10:30 AM - 7:00 PM",
+    "diningHall": "Turner Place - Soup Garden",
+    "date": "2022-12-12"
+  },
+  {
+    "id": null,
+    "hours": "Regular Hours 7:30 AM - 8:00 PM",
+    "diningHall": "VIVA Market - Johnston Student Center",
+    "date": "2022-12-12"
+  },
+  {
+    "id": null,
+    "hours": "Regular Hours 10:30 AM - 9:00 PM",
+    "diningHall": "West End Market",
+    "date": "2022-12-12"
+  },
+  {
+    "id": null,
+    "hours": "Regular Hours 7:30 AM - 2:00 PM",
+    "diningHall": "Au Bon Pain - GLC",
+    "date": "2022-12-13"
+  },
+  {
+    "id": null,
+    "hours": "Regular Hours 7:30 AM - 8:00 PM",
+    "diningHall": "Au Bon Pain - Squires Cafe",
+    "date": "2022-12-13"
+  },
+  {
+    "id": null,
+    "hours": "Regular Hours 7:30 AM - 3:00 PM",
+    "diningHall": "Au Bon Pain at Goodwin Hall",
+    "date": "2022-12-13"
+  },
+  {
+    "id": null,
+    "hours": "Regular Hours 11:00 AM - 9:00 PM",
+    "diningHall": "Burger '37",
+    "date": "2022-12-13"
+  },
+  {
+    "id": null,
+    "hours": "Dinner 5:00 PM - 7:30 PM",
+    "diningHall": "Dietrick - D2",
+    "date": "2022-12-13"
+  },
+  {
+    "id": null,
+    "hours": "Regular Hours 7:00 AM - 12:00 AM",
+    "diningHall": "Dietrick - Deet's Place",
+    "date": "2022-12-13"
+  },
+  {
+    "id": null,
+    "hours": "In-Person Orders Only 11:00 AM - 2:00 AM",
+    "diningHall": "Dietrick - DXpress",
+    "date": "2022-12-13"
+  },
+  {
+    "id": null,
+    "hours": "Regular Hours 7:00 AM - 2:00 AM",
+    "diningHall": "Dietrick - Xpress Lane",
+    "date": "2022-12-13"
+  },
+  {
+    "id": null,
+    "hours": "Regular Hours 7:30 AM - 8:00 PM",
+    "diningHall": "Dunkin'",
+    "date": "2022-12-13"
+  },
+  {
+    "id": null,
+    "hours": "Regular Hours 7:30 AM - 10:00 PM",
+    "diningHall": "Hokie Grill & Co.",
+    "date": "2022-12-13"
+  },
+  {
+    "id": null,
+    "hours": "Breakfast 7:30 AM - 10:30 AM",
+    "diningHall": "Owens Food Court",
+    "date": "2022-12-13"
+  },
+  {
+    "id": null,
+    "hours": "Breakfast 7:00 AM - 10:00 AM",
+    "diningHall": "Turner Place - 1872 Fire Grill",
+    "date": "2022-12-13"
+  },
+  {
+    "id": null,
+    "hours": "Lunch/Dinner 10:30 AM - 8:00 PM",
+    "diningHall": "Turner Place - Atomic Pizzeria",
+    "date": "2022-12-13"
+  },
+  {
+    "id": null,
+    "hours": "Brunch 7:00 AM - 3:00 PM",
+    "diningHall": "Turner Place - Bruegger's Bagels",
+    "date": "2022-12-13"
+  },
+  {
+    "id": null,
+    "hours": "Regular Hours 7:00 AM - 8:00 PM",
+    "diningHall": "Turner Place - Dolci e Caffe",
+    "date": "2022-12-13"
+  },
+  {
+    "id": null,
+    "hours": "Grab & Gobble 7:00 AM - 9:00 PM",
+    "diningHall": "Turner Place - Dolci e Caffe: Grab n Go",
+    "date": "2022-12-13"
+  },
+  {
+    "id": null,
+    "hours": "Regular Hours 7:30 AM - 8:00 PM",
+    "diningHall": "Turner Place - Jamba",
+    "date": "2022-12-13"
+  },
+  {
+    "id": null,
+    "hours": "Lunch 11:00 AM - 3:00 PM",
+    "diningHall": "Turner Place - Origami Grill",
+    "date": "2022-12-13"
+  },
+  {
+    "id": null,
+    "hours": "Regular Hours 11:00 AM - 2:30 PM",
+    "diningHall": "Turner Place - Origami Sushi",
+    "date": "2022-12-13"
+  },
+  {
+    "id": null,
+    "hours": "Regular Hours 10:00 AM - 9:00 PM",
+    "diningHall": "Turner Place - Qdoba Mexican Eats",
+    "date": "2022-12-13"
+  },
+  {
+    "id": null,
+    "hours": "Grubhub Orders only 10:30 AM - 7:00 PM",
+    "diningHall": "Turner Place - Soup Garden",
+    "date": "2022-12-13"
+  },
+  {
+    "id": null,
+    "hours": "Regular Hours 7:30 AM - 8:00 PM",
+    "diningHall": "VIVA Market - Johnston Student Center",
+    "date": "2022-12-13"
+  },
+  {
+    "id": null,
+    "hours": "Regular Hours 10:30 AM - 9:00 PM",
+    "diningHall": "West End Market",
+    "date": "2022-12-13"
+  },
+  {
+    "id": null,
+    "hours": "Regular Hours 7:30 AM - 2:00 PM",
+    "diningHall": "Au Bon Pain - GLC",
+    "date": "2022-12-14"
+  },
+  {
+    "id": null,
+    "hours": "Regular Hours 7:30 AM - 5:00 PM",
+    "diningHall": "Au Bon Pain - Squires Cafe",
+    "date": "2022-12-14"
+  },
+  {
+    "id": null,
+    "hours": "Regular Hours 7:30 AM - 2:00 PM",
+    "diningHall": "Au Bon Pain at Goodwin Hall",
+    "date": "2022-12-14"
+  },
+  {
+    "id": null,
+    "hours": "Regular Hours 11:00 AM - 3:00 PM",
+    "diningHall": "Burger '37",
+    "date": "2022-12-14"
+  },
+  {
+    "id": null,
+    "hours": "Breakfast 7:00 AM - 10:00 AM",
+    "diningHall": "Dietrick - D2",
+    "date": "2022-12-14"
+  },
+  {
+    "id": null,
+    "hours": "Regular Hours 7:00 AM - 2:00 PM",
+    "diningHall": "Dietrick - Deet's Place",
+    "date": "2022-12-14"
+  },
+  {
+    "id": null,
+    "hours": "In-Person Orders Only 11:00 AM - 5:00 PM",
+    "diningHall": "Dietrick - DXpress",
+    "date": "2022-12-14"
+  },
+  {
+    "id": null,
+    "hours": "Regular Hours 7:00 AM - 2:00 PM",
+    "diningHall": "Dietrick - Xpress Lane",
+    "date": "2022-12-14"
+  },
+  {
+    "id": null,
+    "hours": "Regular Hours 7:30 AM - 3:00 PM",
+    "diningHall": "Dunkin'",
+    "date": "2022-12-14"
+  },
+  {
+    "id": null,
+    "hours": "Regular Hours 7:30 AM - 3:00 PM",
+    "diningHall": "Hokie Grill & Co.",
+    "date": "2022-12-14"
+  },
+  {
+    "id": null,
+    "hours": "Breakfast 7:30 AM - 10:30 AM",
+    "diningHall": "Owens Food Court",
+    "date": "2022-12-14"
+  },
+  {
+    "id": null,
+    "hours": "Breakfast 7:00 AM - 10:00 AM",
+    "diningHall": "Turner Place - 1872 Fire Grill",
+    "date": "2022-12-14"
+  },
+  {
+    "id": null,
+    "hours": "Lunch/Dinner 10:30 AM - 3:00 PM",
+    "diningHall": "Turner Place - Atomic Pizzeria",
+    "date": "2022-12-14"
+  },
+  {
+    "id": null,
+    "hours": "Brunch 7:00 AM - 3:00 PM",
+    "diningHall": "Turner Place - Bruegger's Bagels",
+    "date": "2022-12-14"
+  },
+  {
+    "id": null,
+    "hours": "Regular Hours 7:00 AM - 3:00 PM",
+    "diningHall": "Turner Place - Dolci e Caffe",
+    "date": "2022-12-14"
+  },
+  {
+    "id": null,
+    "hours": "Grab & Gobble 7:00 AM - 3:00 PM",
+    "diningHall": "Turner Place - Dolci e Caffe: Grab n Go",
+    "date": "2022-12-14"
+  },
+  {
+    "id": null,
+    "hours": "Regular Hours 7:30 AM - 3:00 PM",
+    "diningHall": "Turner Place - Jamba",
+    "date": "2022-12-14"
+  },
+  {
+    "id": null,
+    "hours": "Lunch 11:00 AM - 3:00 PM",
+    "diningHall": "Turner Place - Origami Grill",
+    "date": "2022-12-14"
+  },
+  {
+    "id": null,
+    "hours": "Regular Hours 11:00 AM - 3:00 PM",
+    "diningHall": "Turner Place - Origami Sushi",
+    "date": "2022-12-14"
+  },
+  {
+    "id": null,
+    "hours": "Regular Hours 10:00 AM - 3:00 PM",
+    "diningHall": "Turner Place - Qdoba Mexican Eats",
+    "date": "2022-12-14"
+  },
+  {
+    "id": null,
+    "hours": "Grubhub Orders only 10:30 AM - 3:00 PM",
+    "diningHall": "Turner Place - Soup Garden",
+    "date": "2022-12-14"
+  },
+  {
+    "id": null,
+    "hours": "Regular Hours 7:30 AM - 4:00 PM",
+    "diningHall": "VIVA Market - Johnston Student Center",
+    "date": "2022-12-14"
+  },
+  {
+    "id": null,
+    "hours": "Regular Hours 10:30 AM - 3:00 PM",
+    "diningHall": "West End Market",
+    "date": "2022-12-14"
+  },
+  {
+    "id": null,
+    "hours": "Regular Hours 8:00 AM - 6:00 PM",
+    "diningHall": "Au Bon Pain - Squires Cafe",
+    "date": "2022-12-15"
+  },
+  {
+    "id": null,
+    "hours": "Regular Hours 8:00 AM - 6:00 PM",
+    "diningHall": "Au Bon Pain - Squires Cafe",
+    "date": "2022-12-16"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Au Bon Pain - Squires Cafe",
+    "date": "2022-12-17"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Au Bon Pain at Goodwin Hall",
+    "date": "2022-12-17"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Burger '37",
+    "date": "2022-12-17"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Dietrick - D2",
+    "date": "2022-12-17"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Dietrick - Deet's Place",
+    "date": "2022-12-17"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Dietrick - DXpress",
+    "date": "2022-12-17"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Dietrick - Xpress Lane",
+    "date": "2022-12-17"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Dunkin'",
+    "date": "2022-12-17"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Hokie Grill & Co.",
+    "date": "2022-12-17"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Owens Food Court",
+    "date": "2022-12-17"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Turner Place - 1872 Fire Grill",
+    "date": "2022-12-17"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Turner Place - Atomic Pizzeria",
+    "date": "2022-12-17"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Turner Place - Bruegger's Bagels",
+    "date": "2022-12-17"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Turner Place - Dolci e Caffe",
+    "date": "2022-12-17"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Turner Place - Dolci e Caffe: Grab n Go",
+    "date": "2022-12-17"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Turner Place - Jamba",
+    "date": "2022-12-17"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Turner Place - Origami Grill",
+    "date": "2022-12-17"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Turner Place - Origami Sushi",
+    "date": "2022-12-17"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Turner Place - Qdoba Mexican Eats",
+    "date": "2022-12-17"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Turner Place - Soup Garden",
+    "date": "2022-12-17"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "VIVA Market - Johnston Student Center",
+    "date": "2022-12-17"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "West End Market",
+    "date": "2022-12-17"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Au Bon Pain - Squires Cafe",
+    "date": "2022-12-18"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Au Bon Pain at Goodwin Hall",
+    "date": "2022-12-18"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Burger '37",
+    "date": "2022-12-18"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Dietrick - D2",
+    "date": "2022-12-18"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Dietrick - Deet's Place",
+    "date": "2022-12-18"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Dietrick - DXpress",
+    "date": "2022-12-18"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Dietrick - Xpress Lane",
+    "date": "2022-12-18"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Dunkin'",
+    "date": "2022-12-18"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Hokie Grill & Co.",
+    "date": "2022-12-18"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Owens Food Court",
+    "date": "2022-12-18"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Turner Place - 1872 Fire Grill",
+    "date": "2022-12-18"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Turner Place - Atomic Pizzeria",
+    "date": "2022-12-18"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Turner Place - Bruegger's Bagels",
+    "date": "2022-12-18"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Turner Place - Dolci e Caffe",
+    "date": "2022-12-18"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Turner Place - Dolci e Caffe: Grab n Go",
+    "date": "2022-12-18"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Turner Place - Jamba",
+    "date": "2022-12-18"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Turner Place - Origami Grill",
+    "date": "2022-12-18"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Turner Place - Origami Sushi",
+    "date": "2022-12-18"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Turner Place - Qdoba Mexican Eats",
+    "date": "2022-12-18"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Turner Place - Soup Garden",
+    "date": "2022-12-18"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "VIVA Market - Johnston Student Center",
+    "date": "2022-12-18"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "West End Market",
+    "date": "2022-12-18"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Au Bon Pain - Squires Cafe",
+    "date": "2022-12-19"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Au Bon Pain at Goodwin Hall",
+    "date": "2022-12-19"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Burger '37",
+    "date": "2022-12-19"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Dietrick - D2",
+    "date": "2022-12-19"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Dietrick - Deet's Place",
+    "date": "2022-12-19"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Dietrick - DXpress",
+    "date": "2022-12-19"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Dietrick - Xpress Lane",
+    "date": "2022-12-19"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Dunkin'",
+    "date": "2022-12-19"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Hokie Grill & Co.",
+    "date": "2022-12-19"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Owens Food Court",
+    "date": "2022-12-19"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Turner Place - 1872 Fire Grill",
+    "date": "2022-12-19"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Turner Place - Atomic Pizzeria",
+    "date": "2022-12-19"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Turner Place - Bruegger's Bagels",
+    "date": "2022-12-19"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Turner Place - Dolci e Caffe",
+    "date": "2022-12-19"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Turner Place - Dolci e Caffe: Grab n Go",
+    "date": "2022-12-19"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Turner Place - Jamba",
+    "date": "2022-12-19"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Turner Place - Origami Grill",
+    "date": "2022-12-19"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Turner Place - Origami Sushi",
+    "date": "2022-12-19"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Turner Place - Qdoba Mexican Eats",
+    "date": "2022-12-19"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Turner Place - Soup Garden",
+    "date": "2022-12-19"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "VIVA Market - Johnston Student Center",
+    "date": "2022-12-19"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "West End Market",
+    "date": "2022-12-19"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Au Bon Pain - Squires Cafe",
+    "date": "2022-12-20"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Au Bon Pain at Goodwin Hall",
+    "date": "2022-12-20"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Burger '37",
+    "date": "2022-12-20"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Dietrick - D2",
+    "date": "2022-12-20"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Dietrick - Deet's Place",
+    "date": "2022-12-20"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Dietrick - DXpress",
+    "date": "2022-12-20"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Dietrick - Xpress Lane",
+    "date": "2022-12-20"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Dunkin'",
+    "date": "2022-12-20"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Hokie Grill & Co.",
+    "date": "2022-12-20"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Owens Food Court",
+    "date": "2022-12-20"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Turner Place - 1872 Fire Grill",
+    "date": "2022-12-20"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Turner Place - Atomic Pizzeria",
+    "date": "2022-12-20"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Turner Place - Bruegger's Bagels",
+    "date": "2022-12-20"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Turner Place - Dolci e Caffe",
+    "date": "2022-12-20"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Turner Place - Dolci e Caffe: Grab n Go",
+    "date": "2022-12-20"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Turner Place - Jamba",
+    "date": "2022-12-20"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Turner Place - Origami Grill",
+    "date": "2022-12-20"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Turner Place - Origami Sushi",
+    "date": "2022-12-20"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Turner Place - Qdoba Mexican Eats",
+    "date": "2022-12-20"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Turner Place - Soup Garden",
+    "date": "2022-12-20"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "VIVA Market - Johnston Student Center",
+    "date": "2022-12-20"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "West End Market",
+    "date": "2022-12-20"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Au Bon Pain - Squires Cafe",
+    "date": "2022-12-21"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Au Bon Pain at Goodwin Hall",
+    "date": "2022-12-21"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Burger '37",
+    "date": "2022-12-21"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Dietrick - D2",
+    "date": "2022-12-21"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Dietrick - Deet's Place",
+    "date": "2022-12-21"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Dietrick - DXpress",
+    "date": "2022-12-21"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Dietrick - Xpress Lane",
+    "date": "2022-12-21"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Dunkin'",
+    "date": "2022-12-21"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Hokie Grill & Co.",
+    "date": "2022-12-21"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Owens Food Court",
+    "date": "2022-12-21"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Turner Place - 1872 Fire Grill",
+    "date": "2022-12-21"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Turner Place - Atomic Pizzeria",
+    "date": "2022-12-21"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Turner Place - Bruegger's Bagels",
+    "date": "2022-12-21"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Turner Place - Dolci e Caffe",
+    "date": "2022-12-21"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Turner Place - Dolci e Caffe: Grab n Go",
+    "date": "2022-12-21"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Turner Place - Jamba",
+    "date": "2022-12-21"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Turner Place - Origami Grill",
+    "date": "2022-12-21"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Turner Place - Origami Sushi",
+    "date": "2022-12-21"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Turner Place - Qdoba Mexican Eats",
+    "date": "2022-12-21"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Turner Place - Soup Garden",
+    "date": "2022-12-21"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "VIVA Market - Johnston Student Center",
+    "date": "2022-12-21"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "West End Market",
+    "date": "2022-12-21"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Au Bon Pain - Squires Cafe",
+    "date": "2022-12-22"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Au Bon Pain at Goodwin Hall",
+    "date": "2022-12-22"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Burger '37",
+    "date": "2022-12-22"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Dietrick - D2",
+    "date": "2022-12-22"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Dietrick - Deet's Place",
+    "date": "2022-12-22"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Dietrick - DXpress",
+    "date": "2022-12-22"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Dietrick - Xpress Lane",
+    "date": "2022-12-22"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Dunkin'",
+    "date": "2022-12-22"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Hokie Grill & Co.",
+    "date": "2022-12-22"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Owens Food Court",
+    "date": "2022-12-22"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Turner Place - 1872 Fire Grill",
+    "date": "2022-12-22"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Turner Place - Atomic Pizzeria",
+    "date": "2022-12-22"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Turner Place - Bruegger's Bagels",
+    "date": "2022-12-22"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Turner Place - Dolci e Caffe",
+    "date": "2022-12-22"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Turner Place - Dolci e Caffe: Grab n Go",
+    "date": "2022-12-22"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Turner Place - Jamba",
+    "date": "2022-12-22"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Turner Place - Origami Grill",
+    "date": "2022-12-22"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Turner Place - Origami Sushi",
+    "date": "2022-12-22"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Turner Place - Qdoba Mexican Eats",
+    "date": "2022-12-22"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Turner Place - Soup Garden",
+    "date": "2022-12-22"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "VIVA Market - Johnston Student Center",
+    "date": "2022-12-22"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "West End Market",
+    "date": "2022-12-22"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Au Bon Pain - Squires Cafe",
+    "date": "2022-12-23"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Au Bon Pain at Goodwin Hall",
+    "date": "2022-12-23"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Burger '37",
+    "date": "2022-12-23"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Dietrick - D2",
+    "date": "2022-12-23"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Dietrick - Deet's Place",
+    "date": "2022-12-23"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Dietrick - DXpress",
+    "date": "2022-12-23"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Dietrick - Xpress Lane",
+    "date": "2022-12-23"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Dunkin'",
+    "date": "2022-12-23"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Hokie Grill & Co.",
+    "date": "2022-12-23"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Owens Food Court",
+    "date": "2022-12-23"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Turner Place - 1872 Fire Grill",
+    "date": "2022-12-23"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Turner Place - Atomic Pizzeria",
+    "date": "2022-12-23"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Turner Place - Bruegger's Bagels",
+    "date": "2022-12-23"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Turner Place - Dolci e Caffe",
+    "date": "2022-12-23"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Turner Place - Dolci e Caffe: Grab n Go",
+    "date": "2022-12-23"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Turner Place - Jamba",
+    "date": "2022-12-23"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Turner Place - Origami Grill",
+    "date": "2022-12-23"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Turner Place - Origami Sushi",
+    "date": "2022-12-23"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Turner Place - Qdoba Mexican Eats",
+    "date": "2022-12-23"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Turner Place - Soup Garden",
+    "date": "2022-12-23"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "VIVA Market - Johnston Student Center",
+    "date": "2022-12-23"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "West End Market",
+    "date": "2022-12-23"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Au Bon Pain - Squires Cafe",
+    "date": "2022-12-24"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Au Bon Pain at Goodwin Hall",
+    "date": "2022-12-24"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Burger '37",
+    "date": "2022-12-24"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Dietrick - D2",
+    "date": "2022-12-24"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Dietrick - Deet's Place",
+    "date": "2022-12-24"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Dietrick - DXpress",
+    "date": "2022-12-24"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Dietrick - Xpress Lane",
+    "date": "2022-12-24"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Dunkin'",
+    "date": "2022-12-24"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Hokie Grill & Co.",
+    "date": "2022-12-24"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Owens Food Court",
+    "date": "2022-12-24"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Turner Place - 1872 Fire Grill",
+    "date": "2022-12-24"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Turner Place - Atomic Pizzeria",
+    "date": "2022-12-24"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Turner Place - Bruegger's Bagels",
+    "date": "2022-12-24"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Turner Place - Dolci e Caffe",
+    "date": "2022-12-24"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Turner Place - Dolci e Caffe: Grab n Go",
+    "date": "2022-12-24"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Turner Place - Jamba",
+    "date": "2022-12-24"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Turner Place - Origami Grill",
+    "date": "2022-12-24"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Turner Place - Origami Sushi",
+    "date": "2022-12-24"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Turner Place - Qdoba Mexican Eats",
+    "date": "2022-12-24"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "Turner Place - Soup Garden",
+    "date": "2022-12-24"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "VIVA Market - Johnston Student Center",
+    "date": "2022-12-24"
+  },
+  {
+    "id": null,
+    "hours": "Closed",
+    "diningHall": "West End Market",
+    "date": "2022-12-24"
+  }
+]
