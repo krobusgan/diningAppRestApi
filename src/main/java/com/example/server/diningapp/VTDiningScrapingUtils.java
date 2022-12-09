@@ -259,9 +259,9 @@ public class VTDiningScrapingUtils {
                                 .diningHall(card.getElementsByClass("p-panel-title").size() > 0
                                         ? card.getElementsByClass("p-panel-title").get(0).text()
                                         : "").build();
-                log.info("Opening Rest " + (card.getElementsByClass("p-panel-title").size() > 0
-                        ? card.getElementsByClass("p-panel-title").get(0).text()
-                        : ""));
+//                log.info("Opening Rest " + (card.getElementsByClass("p-panel-title").size() > 0
+//                        ? card.getElementsByClass("p-panel-title").get(0).text()
+//                        : ""));
                 records.add(diningHallHour);
             }
         }
